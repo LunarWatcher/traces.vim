@@ -1,12 +1,9 @@
 *traces.txt*	Range, pattern and substitute preview for Vim
 
-Version 1.1.0
-
 CONTENTS					*traces-contents*
 
 1. Introduction		|traces-introduction|
-2. Requirements		|traces-requirements|
-3. Options 		|traces-options|
+2. Options 		|traces-options|
 				|g:traces_enabled|
 				|g:traces_preserve_view_state|
 				|g:traces_substitute_preview|
@@ -17,11 +14,11 @@ CONTENTS					*traces-contents*
 				|g:traces_preview_window|
 				|g:traces_abolish_integration|
 				|g:traces_normal_preview|
-4. Highlights		|traces-highlights|
+3. Highlights		|traces-highlights|
 				|hl-TracesSearch|
 				|hl-TracesReplace|
-5. Bugs			|traces-bugs|
-6. Changelog		|traces-changelog|
+4. Bugs			|traces-bugs|
+5. Changelog		|traces-changelog|
 
 ==============================================================================
 INTRODUCTION					*traces-introduction*
@@ -54,15 +51,6 @@ Live preview is implemented for the following Ex commands:
   |:smagic|
   |:snomagic|
   |:normal|
-
-==============================================================================
-REQUIREMENTS					*traces-requirements*
-
-Vim 8.1
-
-or
-
-Neovim 0.2.3
 
 ==============================================================================
 OPTIONS 					*traces-options*
@@ -176,7 +164,7 @@ BUGS						*traces-bugs*
 
 
  - If you have any problems or suggestions, please let me know at:
-   https://github.com/markonm/traces.vim
+   https://github.com/LunarWatcher/traces.vim
 
 ==============================================================================
 CHANGELOG					*traces-changelog*
@@ -213,4 +201,4 @@ CHANGELOG					*traces-changelog*
 	- Initial version.
 
 ==============================================================================
-vim:tw=78:ts=8:ft=help:norl:fen:fdl=0:fdm=marker:
+vim:tw=80:ts=8:ft=help:norl:fen:fdl=0:fdm=marker:
