@@ -2,6 +2,8 @@
 
 This is a maintained fork of [markonm/traces.vim](https://github.com/markonm/traces.vim). Note that the plugin itself is currently considered feature-complete, so regular, major updates will not be happening unless features are suggested.
 
+As of 2026-03-08, this plugin is no longer maintained. Due to [AI slop in vim](https://hachyderm.io/@AndrewRadev/116175986749599825), I have moved to emacs with evil mode.
+
 ## Overview
 This plugin highlights patterns and ranges for Ex commands in Command-line mode.
 It also provides live preview for `:substitute`.
